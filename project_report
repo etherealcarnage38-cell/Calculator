@@ -1,0 +1,24 @@
+# Project Report: Console-Based Calculator in Python
+
+**Course:** Python Essentials  
+**Submission Deadline:** September 30, 2026  
+**Project Domain:** CLI Application Development  
+
+---
+
+### 1. Executive Summary
+This project provides a command-line calculator implemented in Python, designed to demonstrate core functional concepts of programming such as control structures, operator handling, type casting, and interactive user input loops.
+
+### 2. Objectives
+- Demonstrate practical understanding of core Python concepts.
+- Create an executable, zero-dependency CLI application.
+- Implement robust input processing and runtime error handling.
+
+### 3. Implementation Details
+The application utilizes a `while` loop structure to maintain an execution cycle[cite: 1]. The program workflow includes:
+- **Input Collection:** Captures user operator preferences (`+`, `-`, `*`, `/`) and numeric input values[cite: 1].
+- **Data Type Casting:** Converts string inputs into numerical formats (`float`/`int`) for arithmetic calculations[cite: 1].
+- **Conditional Branching:** Evaluates selected operations using `if-elif-else` control blocks[cite: 1].
+- **Error Safeguards:** Evaluates edge cases such as division by zero before execution[cite: 1].
+
+### 4. Code Architecture Overview
